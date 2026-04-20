@@ -1,0 +1,12 @@
+1. Interface vs Abstract Class?
+Answer:
+Interface defines only behavior (fully abstract) Abstract class provides both behavior and implementation
+A class can implement multiple interfaces but extend only one abstract class
+Interfaces are used for loose coupling, abstract classes for shared base logic
+ 
+
+2. Can we create an object of an interface?
+Answer:
+No, we cannot create an object of an interface directly.
+But we can:
+Use reference variable Create object using implementation class
